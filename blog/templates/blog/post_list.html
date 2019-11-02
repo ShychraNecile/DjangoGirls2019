@@ -5,7 +5,7 @@
 </head>
 <body>
         <div>
-            <h1><a href="/">Django Girls Blog</a></h1>
+            <h1><a href="https://djangogirls.org/" target="_blank">Django Girls</a></h1>
         </div>
 
             {% for post in posts %}
@@ -19,32 +19,5 @@
         </div>
         {% endfor %}
 
-            {% for post in posts %}
-            <div>
-            	<p>published: {{post.published_date}}</p>
-
-            {{post}}
-            
-            <h2><a href="">{{post.title}}</a></h2>
-            <p>{{post.text|linebreaksbr}}</p>
-        </div>
-        {% endfor %}
-
-            {% for post in posts %}
-            <div>
-            	<p>published: {{post.published_date}}</p>
-
-            {{post}}
-            
-            <h2><a href="">{{post.title}}</a></h2>
-            <p>{{post.text|linebreaksbr}}</p>
-        </div>
-        {% endfor %}
-
-
-        <h1>Some titel</h1>
-        <div>
-        	Vestibulum id ligula parta felis euismod semper. Cum sociis natoque penatibus et....
-        </div>
     </body>
 </html>
